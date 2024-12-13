@@ -1,7 +1,5 @@
 import React from "react";
-import Link from 'next/link'
 import Image from 'next/image'
-import AboutDemo from "@/components/global/aboutDemo";
 import { TextHoverEffect } from "@/components/ui/text-hover-effect";
 import { BackgroundBeams } from "@/components/ui/background-beams";
 import shakeHands from "@/images/shakehands.svg"

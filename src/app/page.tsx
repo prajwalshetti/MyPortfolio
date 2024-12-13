@@ -9,7 +9,6 @@ import products from "../data/parallaxProducts.json"
 
 import { motion } from "framer-motion";
 import { HeroParallax } from "@/components/ui/hero-parallax";
-import { LampContainer } from "@/components/ui/lamp";
 import AboutDemo from "@/components/global/aboutDemo";
 import { Experiences } from "@/components/global/experience";
 import SocialLinks from "@/components/global/socials";
