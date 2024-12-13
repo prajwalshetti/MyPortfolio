@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Home",
+        "icon": "<IconHome />",
+        "href": "#"
+    },
+    {
+        "title": "Products",
+        "icon": "<IconTerminal2 />",
+        "href": "#"
+    },
+    {
+        "title": "Components",
+        "icon": "<IconNewSection />",
+        "href": "#"
+    },
+    {
+        "title": "Aceternity UI",
+        "icon": "<Image src='https://assets.aceternity.com/logo-dark.png' width={20} height={20} alt='Aceternity Logo' />",
+        "href": "#"
+    },
+    {
+        "title": "Changelog",
+        "icon": "<IconExchange />",
+        "href": "#"
+    },
+    {
+        "title": "Twitter",
+        "icon": "<IconBrandX />",
+        "href": "#"
+    },
+    {
+        "title": "GitHub",
+        "icon": "<IconBrandGithub />",
+        "href": "#"
+    }
+]

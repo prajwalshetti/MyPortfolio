@@ -22,7 +22,7 @@ function Navbar({ className }: { className?: string }) {
 
                 <div className="flex justify-center items-center gap-4 ">
                     <HoveredLink href="/">Dashboard</HoveredLink>
-                    <HoveredLink href="/about">About</HoveredLink>
+                    <HoveredLink href="/skills">Skills</HoveredLink>
                     <HoveredLink href="/projects">Projects</HoveredLink>
                     <HoveredLink href="/contact">Contact</HoveredLink>
                 </div>

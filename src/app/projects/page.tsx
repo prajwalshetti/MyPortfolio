@@ -26,7 +26,7 @@ export default function StickyScrollRevealDemo() {
 
 export function SparklesPreview() {
     return (
-        <div className="h-[35rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden  rounded-b-[80px]">
+        <div className="h-[35rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden  rounded-b-[100px]">
             <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-white relative z-20">
                 Projects
             </h1>
