@@ -1,6 +1,6 @@
 import React from "react";
 import Image from 'next/image';
-import shakeHands from "@/images/shakehands.svg";
+import shakeHands from "@/public/images/shakehands.svg";
 import { FloatingDockDemo } from "@/components/global/contactsDeck";
 import { BackgroundBeamsDemo } from "@/components/global/backgroundBeams"
 // Ensure the component name is capitalized

@@ -1,18 +1,17 @@
 "use client";
 import React from "react";
-import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
-import { SparklesCore } from "@/components/ui/sparkles";
 import Image from "next/image";
-import content from "@/data/projectsData.json"
+import data from "@/data/projectData.json"
 import { SparklesPreview } from "@/components/global/sparklePreview";
+import { AnimatedTestimonialsDemo } from "@/components/global/projects";
 
 
-export default function StickyScrollRevealDemo() {
+export default function Page() {
     return (
         <main className="bg-[#FAF7F0]">
             <SparklesPreview />
             <div className="p-10">
-                <StickyScroll content={content} />
+            <AnimatedTestimonialsDemo />
             </div>
         </main>
     );

@@ -14,7 +14,7 @@ import { Experiences } from "@/components/global/experience";
 import SocialLinks from "@/components/global/socials";
 import { AnimatedModalDemo } from "@/components/global/resumeDownload";
 
-
+import data from "@/data/projectData.json"
 
 
 const rubik = Rubik({
@@ -36,9 +36,9 @@ export default function Home() {
       <Experiences />
       <SocialLinks />
       <div
-        className="absolute bottom-[-70px] right-9"
+        className="absolute md:fixed md:top-[-130px] bottom-[-70px]  right-9"
         id='downloadResume'>
-        <AnimatedModalDemo ResumeLink="https://drive.google.com/file/d/1lodtIT_fffBYG4UwpaXn1oHopdAUlXeo/view?usp=drive_link" />
+        <AnimatedModalDemo ResumeLink={data.personal_info.my_resume} />
 
       </div>
 

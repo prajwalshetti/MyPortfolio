@@ -6,20 +6,19 @@ import { AuroraBackgroundDemo } from "@/components/global/auraBackground";
 
 import Image from "next/image";
 
-import js from "../../images/Skills/js.png";
-import react from "../../images/Skills/reactjs.png";
-import redux from "../../images/Skills/redux.png";
-import vs from "../../images/Skills/vs.png";
-import mongodb from "../../images/Skills/mongodb.png";
-import mysql from "../../images/Skills/mysql.png";
-import postman from "../../images/Skills/postman.png";
-import tailwind from "../../images/Skills/tailwind.png";
-import html from "../../images/Skills/html5.png";
-import git from "../../images/Skills/git.png";
-import cloudinary from "../assets/Skills/cloudinary.png";
-import css from "../../images/Skills/css.png";
-import nodejs from "../../images/Skills/nodejs.png";
-import reactRouter from "../../images/Skills/reactRouter.png";
+import js from "../../public/images/Skills/js.png";
+import react from "../../public/images/Skills/reactjs.png";
+import redux from "../../public/images/Skills/redux.png";
+import vs from "../../public/images/Skills/vs.png";
+import mongodb from "../../public/images/Skills/mongodb.png";
+import mysql from "../../public/images/Skills/mysql.png";
+import postman from "../../public/images/Skills/postman.png";
+import tailwind from "../../public/images/Skills/tailwind.png";
+import html from "../../public/images/Skills/html5.png";
+import git from "../../public/images/Skills/git.png";
+import css from "../../public/images/Skills/css.png";
+import nodejs from "../../public/images/Skills/nodejs.png";
+import reactRouter from "../../public/images/Skills/reactRouter.png";
 import SocialLinks from "@/components/global/socials";
 
 export default function BackgroundBeamsWithCollisionDemo() {

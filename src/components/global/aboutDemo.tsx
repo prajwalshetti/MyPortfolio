@@ -3,8 +3,9 @@ import React from 'react'
 import Image from "next/image"
 import { FaLongArrowAltRight } from "react-icons/fa";
 
-import person from "@/images/person.svg"
+import person from "@/public/images/person.svg"
 import Link from "next/link";
+import data from "@/data/projectData.json"
 
 function AboutDemo() {
     return (
@@ -18,11 +19,9 @@ function AboutDemo() {
                     <h4>Overview</h4>
                     <h4 className="text-green-400">Who am i</h4>
                 </div>
-                <p className={`text-xl md:text-3xl `}>
-                    I'm a full-stack developer passionate about building innovative web applications
-                    and digital experiences
-                </p>
-                <Link href={"/about"}>
+                <p className={`text-xl md:text-3xl overflow-y-scroll`}>
+                    {data.personal_info.description_about_me}  </p>
+                <Link href={"/skills"}>
                     <div className="flex items-center justify-center gap-3 text-green-400 md:mt-3 ">
                         <h2 className="">Know more</h2>
                         <FaLongArrowAltRight />
