@@ -10,7 +10,7 @@ import {
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { TextHoverEffect } from "../ui/text-hover-effect";
-import { TypewriterEffect, TypewriterEffectSmooth } from "../ui/typewriter-effect";
+import {  TypewriterEffectSmooth } from "../ui/typewriter-effect";
 import Link from "next/link";
 
 type Props = {

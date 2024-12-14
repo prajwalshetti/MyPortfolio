@@ -7,8 +7,7 @@ import {
     IconMail,
     IconBrandInstagram
 } from "@tabler/icons-react";
-import Image from "next/image";
-
+import urls from "@/data/contactLinks.json"
 export function FloatingDockDemo() {
     const links = [
 
@@ -21,36 +20,37 @@ export function FloatingDockDemo() {
             icon: (
                 <IconBrandInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
-            href: "",
+            href: `${urls.instagram}`
         },
+
 
         {
             title: "Twitter",
             icon: (
                 <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
-            href: "#",
+            href: `${urls.x}`,
         },
         {
             title: "GitHub",
             icon: (
                 <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
-            href: "#",
+            href: `${urls.github}`,
         },
         {
             title: "Linkedin",
             icon: (
                 <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
-            href: "#",
+            href: `${urls.linkedin}`,
         },
         {
             title: "Mail",
             icon: (
                 <IconMail className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
-            href: "#",
+            href: `${urls.mail}`,
         },
     ];
     return (

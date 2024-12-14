@@ -20,14 +20,15 @@ import cloudinary from "../assets/Skills/cloudinary.png";
 import css from "../../images/Skills/css.png";
 import nodejs from "../../images/Skills/nodejs.png";
 import reactRouter from "../../images/Skills/reactRouter.png";
+import SocialLinks from "@/components/global/socials";
 
 export default function BackgroundBeamsWithCollisionDemo() {
     return (
-        <main className="bg-[#FAF7F0]">
+        <main className="bg-[#FAF7F0] flex flex-col h-full ">
             <AuroraBackgroundDemo content="Skills." />
 
-            <BackgroundBeamsWithCollision>
-                <div id="skillBlocks" className="lg:w-4/5">
+            <BackgroundBeamsWithCollision className="h-full w-screen mb-3 overflow-x-hidden">
+                <div id="skillBlocks" className="lg:w-4/5 md:mt-0 mt-10 gap-5 w-[97%]">
                     <div className="frontend flex flex-col flex-wrap m-4">
                         <p className="text-[#243642] text-3xl font-bold mb-4">Frontend</p>
                         <div className="skillsStack flex flex-wrap lg:gap-5 md:gap-5 md:flex-row lg:flex-row flex-col gap-3">
@@ -118,8 +119,32 @@ export default function BackgroundBeamsWithCollisionDemo() {
                             </div>
                         </div>
                     </div>
+                    <div className="tools flex flex-col flex-wrap m-4">
+                        <p className='text-gray-500 text-3xl font-bold mb-4'>Tools</p>
+                        <div className='skillsStack flex flex-wrap lg:gap-5 md:gap-5 md:flex-row lg:flex-row flex-col gap-3'>
+                            <div className="skill  bg-slate-900 inline-flex lg:w-56 h-16 items-center p-2 justify-start rounded-lg hover:bg-slate-800 md:w-48">
+                                <Image src={git} alt="github" className="w-16" />
+                                <div className=''>
+                                    <h1 className='text-xl font-semibold'>Git</h1>
+                                    <h4 className='text-xs text-gray-500'>VersionControl</h4>
+                                </div>
+                            </div>
+
+                            <div className="skill  bg-slate-900 inline-flex lg:w-56 h-16 items-center p-2 justify-start rounded-lg hover:bg-slate-800 md:w-48 ">
+                                <Image src={vs} alt="vscode" className="w-16" />
+                                <div className=''>
+                                    <h1 className='text-xl font-semibold'>VsCode</h1>
+                                    <h4 className='text-xs text-gray-500'>Editor</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+
+
             </BackgroundBeamsWithCollision>
+            <SocialLinks />
         </main>
     );
 }
