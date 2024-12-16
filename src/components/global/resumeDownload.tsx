@@ -33,9 +33,9 @@ export function AnimatedModalDemo({ ResumeLink }: Props) {
 
 
     return (
-        <div className="py-40  flex items-center justify-center">
+        <div className="py-40  flex items-center justify-center ">
             <Modal>
-                <ModalTrigger className="bg-[#FAF7F0] text-black flex justify-center group/modal-btn rounded-lg ">
+                <ModalTrigger className="bg-[#FAF7F0] border border-black text-black flex justify-center group/modal-btn rounded-lg ">
                     <span className="group-hover/modal-btn:translate-x-40 text-center transition duration-500">
                         Resume
                     </span>
@@ -43,7 +43,7 @@ export function AnimatedModalDemo({ ResumeLink }: Props) {
                         📄
                     </div>
                 </ModalTrigger>
-                <ModalBody>
+                <ModalBody className="border border-black">
                     <ModalContent>
                         <h4 className="text-lg md:text-2xl text-neutral-600 dark:text-neutral-100 font-bold text-center mb-8">
                             Here is my resume for your review{" "}
