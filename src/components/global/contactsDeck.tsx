@@ -45,13 +45,7 @@ export function FloatingDockDemo() {
             ),
             href: `${url.personal_info.my_linkedin}`
         },
-        // {
-        //     title: "Mail",
-        //     icon: (
-        //         <IconMail className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-        //     ),
-        //     href: `${url.personal_info.my_instagram}`
-        // },
+
     ];
     return (
         <div className="flex items-center justify-center max-h-14 w-full">

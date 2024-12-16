@@ -46,9 +46,9 @@ module.exports = {
       'cdn.glamour.com',      // Glamour
       "aceternity.com"
     ],
-    eslint: {
-      // This option allows production builds to complete even if there are ESLint errors.
-      ignoreDuringBuilds: true,
-    },
+  },
+  eslint: {
+    // This option allows production builds to complete even if there are ESLint errors.
+    ignoreDuringBuilds: true,
   },
 }
