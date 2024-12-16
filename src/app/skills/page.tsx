@@ -147,7 +147,7 @@ export default function BackgroundBeamsWithCollisionDemo() {
                         <p className="text-[#243642] text-3xl font-bold mb-4">Tools</p>
                         <div className="skillsStack flex flex-wrap lg:gap-5 md:gap-5 md:flex-row lg:flex-row flex-col gap-3">
                             {data.skills.tools.map((skill: string, index: number) => (
-                                <div key={index} className="skill bg-slate-900 gap-5 inline-flex gap-5 lg:w-56 h-16 items-center p-2 justify-start rounded-lg md:w-48 hover:bg-slate-800">
+                                <div key={index} className="skill bg-slate-900  inline-flex gap-5 lg:w-56 h-16 items-center p-2 justify-start rounded-lg md:w-48 hover:bg-slate-800">
                                     <div className="ml-1 w-[45px] h-[40px] bg-[#1a1a1a] flex items-center justify-center rounded-md py-[2px]">
                                         {getIconForString(skill)}
                                     </div>
