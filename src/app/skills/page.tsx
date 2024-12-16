@@ -171,7 +171,7 @@ export default function BackgroundBeamsWithCollisionDemo() {
                                     </div>
                                     <div>
                                         <h1 className="text-xl font-semibold text-[#FAF7F0]">{skill}</h1> {/* Updated text color */}
-                                        <h1 className="text-xs text-[#FAF7F0]">Programming Languages</h1> {/* Updated text color */}
+                                        <h1 className="text-xs text-[#FAF7F0]">Programming Language</h1> {/* Updated text color */}
                                     </div>
                                 </div>
                             ))}
