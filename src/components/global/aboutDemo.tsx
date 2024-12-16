@@ -19,7 +19,7 @@ function AboutDemo() {
                     <h4>Overview</h4>
                     <h4 className="text-green-400">Who am i</h4>
                 </div>
-                <p className={`text-xl md:text-3xl overflow-y-scroll`}>
+                <p className={`text-xl md:text-2xl `}>
                     {data.personal_info.description_about_me}  </p>
                 <Link href={"/skills"}>
                     <div className="flex items-center justify-center gap-3 text-green-400 md:mt-3 ">

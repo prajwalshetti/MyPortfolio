@@ -119,7 +119,7 @@ export default function BackgroundBeamsWithCollisionDemo() {
                         </div>
                     </div>
                     <div className="tools flex flex-col flex-wrap m-4">
-                        <p className='text-gray-500 text-3xl font-bold mb-4'>Tools</p>
+                        <p className='text-[#243642]  text-3xl font-bold mb-4'>Tools</p>
                         <div className='skillsStack flex flex-wrap lg:gap-5 md:gap-5 md:flex-row lg:flex-row flex-col gap-3'>
                             <div className="skill  bg-slate-900 inline-flex lg:w-56 h-16 items-center p-2 justify-start rounded-lg hover:bg-slate-800 md:w-48">
                                 <Image src={git} alt="github" className="w-16" />
