@@ -10,37 +10,37 @@
         "description_about_me": "I'm a full-stack developer passionate about building innovative web applications and digital experiences"
     },
     "projects": [
-    {
-        "name": "Hotel Management System",
-        "description": "A Hotel Management System is a web application designed to simplify hotel operations and enhance guest experiences. It includes features like room booking, staff management, payment processing, and customer support, ensuring efficient and seamless management for both guests and administrators.",
-        "src": "/images/hms.png",
-        "projectLink": "https://github.com/uttamseervi/Hotel-Manegement-System"
-    },
-    {
-        "name": "Mega Blog",
-        "description": "A Blog App is a platform that enables users to create, read, edit, and delete blog posts. It includes features like user authentication and post categorization, offering a simple and efficient way for writers to share content and for readers to explore articles.",
-        "src": "/images/blog.png",
-        "projectLink": "https://mega-blog-sandy.vercel.app/"
-    },
-    {
-        "name": "Harvest Guard",
-        "description": "Harvest Guard is a machine learning-based application that predicts suitable crops based on soil quality and climate conditions. By analyzing factors such as soil nutrients, moisture levels, and weather patterns, it provides tailored crop recommendations and farming suggestions to optimize agricultural productivity and sustainability.",
-        "src": "/images/harvest.png",
-        "projectLink": "https://github.com/uttamseervi/hackathon"
-    },
-    {
-        "name": "Personal Portfolio",
-        "description": "A Personal Portfolio is a website that showcases an individual's skills, projects, experience, and achievements.",
-        "src": "/images/porffolio.png",
-        "projectLink": "https://github.com/uttamseervi/portfolio"
-    },
-    {
-        "name": "Spotify Frontend Clone",
-        "description": "A Spotify Frontend Clone is a web application that replicates the basic user interface of Spotify, allowing users to play and pause music. It focuses on providing an interactive experience with features like song selection, play/pause functionality, and a simple, user-friendly design.",
-        "src": "/images/spotify.png",
-        "projectLink": "https://github.com/uttamseervi/Spotify"
-    }
-],
+        {
+            "name": "Hotel Management System",
+            "description": "A Hotel Management System is a web application designed to simplify hotel operations and enhance guest experiences. It includes features like room booking, staff management, payment processing, and customer support, ensuring efficient and seamless management for both guests and administrators.",
+            "src": "/images/hms.png",
+            "projectLink": "https://github.com/uttamseervi/Hotel-Manegement-System"
+        },
+        {
+            "name": "Mega Blog",
+            "description": "A Blog App is a platform that enables users to create, read, edit, and delete blog posts. It includes features like user authentication and post categorization, offering a simple and efficient way for writers to share content and for readers to explore articles.",
+            "src": "/images/blog.png",
+            "projectLink": "https://mega-blog-sandy.vercel.app/"
+        },
+        {
+            "name": "Harvest Guard",
+            "description": "Harvest Guard is a machine learning-based application that predicts suitable crops based on soil quality and climate conditions. By analyzing factors such as soil nutrients, moisture levels, and weather patterns, it provides tailored crop recommendations and farming suggestions to optimize agricultural productivity and sustainability.",
+            "src": "/images/harvest.png",
+            "projectLink": "https://github.com/uttamseervi/hackathon"
+        },
+        {
+            "name": "Personal Portfolio",
+            "description": "A Personal Portfolio is a website that showcases an individual's skills, projects, experience, and achievements.",
+            "src": "/images/porffolio.png",
+            "projectLink": "https://github.com/uttamseervi/portfolio"
+        },
+        {
+            "name": "Spotify Frontend Clone",
+            "description": "A Spotify Frontend Clone is a web application that replicates the basic user interface of Spotify, allowing users to play and pause music. It focuses on providing an interactive experience with features like song selection, play/pause functionality, and a simple, user-friendly design.",
+            "src": "/images/spotify.png",
+            "projectLink": "https://github.com/uttamseervi/Spotify"
+        }
+    ],
     "experience": [
         {
             "id": 1,
@@ -98,9 +98,38 @@
         }
     ],
     "skills": {
-        "frontend": [],
-        "backend": [],
-        "database": [],
-        "tools": []
+        "frontend": [
+            "Javascript",
+            "ReactJS",
+            "NextJS",
+            "Typescript",
+            "Redux",
+            "HTML",
+            "CSS",
+            "Tailwind",
+            "ReactRouter"
+        ],
+        "backend": [
+            "Express",
+            "NodeJs"
+        ],
+        "database": [
+            "MongoDB",
+            "PostgreSQL",
+            "MySQL"
+        ],
+        "tools": [
+            "Git",
+            "VsCode",
+            "Netlify",
+            "Vercel"
+        ],
+        "programming_languages": [
+            "Python",
+            "Java",
+            "C",
+            "C++",
+            "Javascript"
+        ]
     }
 }
