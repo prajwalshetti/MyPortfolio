@@ -45,6 +45,13 @@ export function FloatingDockDemo() {
             ),
             href: `${url.personal_info.my_linkedin}`
         },
+        {
+            title:"Gmail",
+            icon:(
+                <IconMail className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+            ),
+            href:`mailto:${url.personal_info.my_email}`,
+        }
 
     ];
     return (
