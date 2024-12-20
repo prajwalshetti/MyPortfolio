@@ -36,7 +36,7 @@ export default function Home() {
       <Experiences />
       <SocialLinks />
       <div
-        className="absolute md:fixed md:top-[-130px] bottom-[-70px]  right-9"
+        className="absolute md:fixed md:top-[-70px] lg:top-[-130px] bottom-[-70px]  right-9"
         id='downloadResume'>
         <AnimatedModalDemo ResumeLink={data.personal_info.my_resume} />
 
