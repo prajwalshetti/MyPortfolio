@@ -8,7 +8,7 @@ function Page() {
     return (
         <div>
             <div>
-                <BackgroundBeamsDemo /> {/* Ensure BackgroundBeamsDemo is used properly */}
+                <BackgroundBeamsDemo /> 
             </div>
             <div id="aboutSection" className="bg-[#FAF7F0] md:w-full min-h-screen text-[#243642] flex flex-col p-6 mt-1">
                 <div id="image" className=" ">
