@@ -12,7 +12,7 @@
     "projects": [
         {
             "name": "Hotel Management System",
-            "description": "A Hotel Management System is a web application designed to simplify hotel operations and enhance guest experiences. It includes features like room booking, staff management, payment processing, and customer support, ensuring efficient and seamless management for both guests and administrators.",
+            "description": "A Hotel Management System is a web application designed to simplify hotel operations and enhance guest experiences. It includes features like room booking, staff management, payment processing, and customer support.",
             "src": "/images/hms.png",
             "projectLink": "https://github.com/uttamseervi/Hotel-Manegement-System"
         },
