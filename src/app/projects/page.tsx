@@ -25,12 +25,16 @@ export default function Page() {
                                 <Link
                                     href={item.projectLink}
                                     key={index}
-                                    className="card flex md:w-[80%] md:h-[220px] lg:w-[60%] md:flex-row bg-[#1c1c1c] hover:scale-105 rounded-lg flex-col-reverse w-11/12 transition-transform duration-300 shadow-lg hover:shadow-2xl"
+                                    className="card flex md:w-[80%] md:h-[220px] lg:w-[70%] md:flex-row bg-[#1c1c1c] hover:scale-105 rounded-lg flex-col-reverse w-11/12 transition-transform duration-300 shadow-lg hover:shadow-slate-500 "
                                 >
                                     <div className="projectInfo w-full md:w-1/2 md:h-[220px] h-[130px] md:ml-4 flex flex-col justify-center rounded-lg">
-                                        <div className="flex items-center justify-center gap-2 md:gap-4">
-                                            <h2 className="md:text-2xl font-semibold mt-3 ml-4 mb-1">{item.name}</h2>
-                                            <BiLogoGithub />
+                                        <div className="flex items-center justify-start gap-2 md:gap-4 ">
+                                            <div className="w-[80%] ">
+                                                <h2 className="md:text-xl font-semibold mt-3 ml-4 mb-1 ">{item.name}</h2>
+                                            </div>
+                                            <div>
+                                                <BiLogoGithub />
+                                            </div>
                                         </div>
                                         <p className="text-xs text-neutral-300 ml-4 md:overflow-hidden overflow-y-scroll">
                                             {item.description}
