@@ -39,7 +39,7 @@ export default function Page() {
                                 >
                                     <Link
                                         href={item.projectLink}
-                                        className="flex w-full flex-col md:flex-row"
+                                        className="flex w-full flex-col-reverse md:flex-row"
                                     >
                                         <div className="projectInfo w-full md:w-1/2 md:h-[220px] h-[130px] md:ml-4 flex flex-col justify-center rounded-lg">
                                             <div className="flex items-center justify-start gap-2 md:gap-4">
