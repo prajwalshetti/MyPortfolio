@@ -25,14 +25,6 @@ const SocialLinks = () => {
                         <FaLinkedin size={24} />
                     </Link>
                     <Link
-                        href={data.personal_info.my_twitter}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="hover:text-gray-400 transition duration-300"
-                    >
-                        <FaTwitter size={24} />
-                    </Link>
-                    <Link
                         href={`mailto:${data.personal_info.my_email}`}
                         className="hover:text-gray-400 transition duration-300"
                     >

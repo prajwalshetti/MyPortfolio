@@ -15,22 +15,9 @@ export function FloatingDockDemo() {
 
 
 
-        {
-            title: "Instagram",
-            icon: (
-                <IconBrandInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-            ),
-            href: `${url.personal_info.my_instagram}`
-        },
+    
 
 
-        {
-            title: "Twitter",
-            icon: (
-                <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-            ),
-            href: `${url.personal_info.my_twitter}`
-        },
         {
             title: "GitHub",
             icon: (
