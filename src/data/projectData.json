@@ -11,90 +11,84 @@
     },
     "projects": [
         {
-            "name": "Hotel Management System",
-            "description": "A Hotel Management System is a web application designed to simplify hotel operations and enhance guest experiences. It includes features like room booking, staff management, payment processing, and customer support.",
-            "src": "/images/hms.png",
-            "projectLink": "https://github.com/uttamseervi/Hotel-Manegement-System"
+            "project_name": "Hotel Management System",
+            "project_description": "A Hotel Management System is a web application designed to simplify hotel operations and enhance guest experiences. It includes features like room booking, staff management, payment processing, and customer support.",
+            "project_photo": "/images/hms.png",
+            "project_url": "https://github.com/uttamseervi/Hotel-Manegement-System"
         },
         {
-            "name": "Mega Blog",
-            "description": "A Blog App is a platform that enables users to create, read, edit, and delete blog posts. It includes features like user authentication and post categorization, offering a simple and efficient way for writers to share content and for readers to explore articles.",
-            "src": "/images/blog.png",
-            "projectLink": "https://mega-blog-sandy.vercel.app/"
+            "project_name": "Mega Blog",
+            "project_description": "A Blog App is a platform that enables users to create, read, edit, and delete blog posts. It includes features like user authentication and post categorization, offering a simple and efficient way for writers to share content and for readers to explore articles.",
+            "project_photo": "/images/blog.png",
+            "project_url": "https://mega-blog-sandy.vercel.app/"
         },
         {
-            "name": "Harvest Guard",
-            "description": "Harvest Guard is a machine learning-based application that predicts suitable crops based on soil quality and climate conditions. By analyzing factors such as soil nutrients, moisture levels, and weather patterns, it provides tailored crop recommendations and farming suggestions to optimize agricultural productivity and sustainability.",
-            "src": "/images/harvest.png",
-            "projectLink": "https://github.com/uttamseervi/hackathon"
+            "project_name": "Harvest Guard",
+            "project_description": "Harvest Guard is a machine learning-based application that predicts suitable crops based on soil quality and climate conditions. By analyzing factors such as soil nutrients, moisture levels, and weather patterns, it provides tailored crop recommendations and farming suggestions to optimize agricultural productivity and sustainability.",
+            "project_photo": "/images/harvest.png",
+            "project_url": "https://github.com/uttamseervi/hackathon"
         },
         {
-            "name": "Personal Portfolio",
-            "description": "A Personal Portfolio is a website that showcases an individual's skills, projects, experience, and achievements.",
-            "src": "/images/porffolio.png",
-            "projectLink": "https://github.com/uttamseervi/portfolio"
+            "project_name": "Personal Portfolio",
+            "project_description": "A Personal Portfolio is a website that showcases an individual's skills, projects, experience, and achievements.",
+            "project_photo": "/images/porffolio.png",
+            "project_url": "https://github.com/uttamseervi/portfolio"
         },
         {
-            "name": "Spotify Clone",
-            "description": "A Spotify Frontend Clone is a web application that replicates the basic user interface of Spotify, allowing users to play and pause music. It focuses on providing an interactive experience with features like song selection, play/pause functionality, and a simple, user-friendly design.",
-            "src": "/images/spotify.png",
-            "projectLink": "https://github.com/uttamseervi/Spotify"
+            "project_name": "Spotify Clone",
+            "project_description": "A Spotify Frontend Clone is a web application that replicates the basic user interface of Spotify, allowing users to play and pause music. It focuses on providing an interactive experience with features like song selection, play/pause functionality, and a simple, user-friendly design.",
+            "project_photo": "/images/spotify.png",
+            "project_url": "https://github.com/uttamseervi/Spotify"
         }
     ],
     "experience": [
         {
-            "id": 1,
-            "company": "TechWave Solutions",
-            "position": "Frontend Developer",
-            "startDate": "2021-01-15",
-            "endDate": "2022-06-30",
+            "my_company": "TechWave Solutions",
+            "my_role": "Frontend Developer",
+            "start_date": "2021-01-15",
+            "end_date": "2022-06-30",
             "location": "San Francisco, CA",
-            "description": "Developed and optimized web applications using React, ensuring responsive design and seamless user experiences."
+            "my_role_desc": "Developed and optimized web applications using React, ensuring responsive design and seamless user experiences."
         },
         {
-            "id": 2,
-            "company": "InnoVision Corp",
-            "position": "Backend Developer",
-            "startDate": "2019-09-01",
-            "endDate": "2020-12-31",
+            "my_company": "InnoVision Corp",
+            "my_role": "Backend Developer",
+            "start_date": "2019-09-01",
+            "end_date": "2020-12-31",
             "location": "Austin, TX",
-            "description": "Built and maintained RESTful APIs using Node.js and Express, improving system performance by 25%."
+            "my_role_desc": "Built and maintained RESTful APIs using Node.js and Express, improving system performance by 25%."
         },
         {
-            "id": 3,
-            "company": "CodeCraft Studio",
-            "position": "Full Stack Developer",
-            "startDate": "2018-05-01",
-            "endDate": "2019-08-30",
+            "my_company": "CodeCraft Studio",
+            "my_role": "Full Stack Developer",
+            "start_date": "2018-05-01",
+            "end_date": "2019-08-30",
             "location": "New York, NY",
-            "description": "Collaborated with cross-functional teams to deliver scalable full-stack solutions using MERN stack."
+            "my_role_desc": "Collaborated with cross-functional teams to deliver scalable full-stack solutions using MERN stack."
         },
         {
-            "id": 4,
-            "company": "BrightPath Analytics",
-            "position": "Data Analyst",
-            "startDate": "2020-03-01",
-            "endDate": "2021-12-31",
+            "my_company": "BrightPath Analytics",
+            "my_role": "Data Analyst",
+            "start_date": "2020-03-01",
+            "end_date": "2021-12-31",
             "location": "Chicago, IL",
-            "description": "Analyzed large datasets using Python and SQL, delivering actionable insights that boosted sales by 15%."
+            "my_role_desc": "Analyzed large datasets using Python and SQL, delivering actionable insights that boosted sales by 15%."
         },
         {
-            "id": 5,
-            "company": "Skyline Innovations",
-            "position": "DevOps Engineer",
-            "startDate": "2022-07-01",
-            "endDate": "Present",
+            "my_company": "Skyline Innovations",
+            "my_role": "DevOps Engineer",
+            "start_date": "2022-07-01",
+            "end_date": "Present",
             "location": "Seattle, WA",
-            "description": "Implemented CI/CD pipelines using Jenkins and Docker, reducing deployment time by 40%."
+            "my_role_desc": "Implemented CI/CD pipelines using Jenkins and Docker, reducing deployment time by 40%."
         },
         {
-            "id": 6,
-            "company": "PixelEdge Designs",
-            "position": "UI/UX Designer",
-            "startDate": "2017-02-15",
-            "endDate": "2018-04-30",
+            "my_company": "PixelEdge Designs",
+            "my_role": "UI/UX Designer",
+            "start_date": "2017-02-15",
+            "end_date": "2018-04-30",
             "location": "Los Angeles, CA",
-            "description": "Designed intuitive user interfaces and improved user journeys, resulting in a 20% increase in engagement."
+            "my_role_desc": "Designed intuitive user interfaces and improved user journeys, resulting in a 20% increase in engagement."
         }
     ],
     "skills": {

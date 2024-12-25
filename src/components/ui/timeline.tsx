@@ -2,13 +2,12 @@ import { useScroll, useTransform, motion } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
 
 interface TimelineEntry {
-    id: number;
-    company: string;
-    position: string;
-    startDate: string;
-    endDate: string;
+    my_company: string;
+    my_role: string;
+    start_date: string;
+    end_date: string;
     location: string;
-    description: string;
+    my_role_desc: string;
 }
 
 export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
@@ -53,24 +52,24 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
             <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
                 {data.map((item) => (
-                    <div key={item.id} className="flex justify-start pt-1 md:pt-10  md:mb-16 mb-28 md:gap-10">
+                    <div key={item.start_date} className="flex justify-start pt-1 md:pt-10  md:mb-16 mb-28 md:gap-10">
                         <div className="sticky flex flex-col md:flex-row z-40 items-center top-40 self-start max-w-xs lg:max-w-sm md:w-full">
                             <div className="h-10 absolute left-3 md:left-3 w-10 rounded-full bg-white dark:bg-black flex items-center justify-center">
                                 <div className="h-4 w-4 rounded-full bg-[#243642] dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 p-2" />
                             </div>
                             <h3 className="hidden md:block text-xl md:pl-20 md:text-5xl font-bold text-[#243642] ">
-                                {item.company}
+                                {item.my_company}
                                 <div className="text-xs mt-1">{item.location}</div>
                             </h3>
                         </div>
 
                         <div className="relative pl-20 pr-4 md:pl-4 w-full text-[#243642]">
                             <h3 className="md:hidden block text-2xl mb-4 text-left font-bold text-[#243642] ">
-                                {item.company}
+                                {item.my_company}
                             </h3>
-                            <h2>{item.position}</h2>
-                            <p>{item.startDate} - {item.endDate}</p>
-                            <p>{item.description}</p>
+                            <h2>{item.my_role}</h2>
+                            <p>{item.start_date} - {item.end_date}</p>
+                            <p>{item.my_role_desc}</p>
                         </div>
                     </div>
                 ))}

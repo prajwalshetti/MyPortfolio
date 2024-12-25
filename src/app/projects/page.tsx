@@ -38,14 +38,14 @@ export default function Page() {
                                     className="card flex md:w-[80%] md:h-[220px] lg:w-[70%] md:flex-row bg-[#1c1c1c] rounded-lg flex-col-reverse w-11/12 shadow-lg hover:shadow-slate-500"
                                 >
                                     <Link
-                                        href={item.projectLink}
+                                        href={item.project_url}
                                         className="flex w-full flex-col-reverse md:flex-row"
                                     >
                                         <div className="projectInfo w-full md:w-1/2 md:h-[220px] h-[130px] md:ml-4 flex flex-col justify-center rounded-lg">
                                             <div className="flex items-center justify-start gap-2 md:gap-4">
                                                 <div className="w-[80%]">
                                                     <h2 className="md:text-xl font-semibold mt-3 ml-4 mb-1 ">
-                                                        {item.name}
+                                                        {item.project_name}
                                                     </h2>
                                                 </div>
                                                 <div>
@@ -53,15 +53,15 @@ export default function Page() {
                                                 </div>
                                             </div>
                                             <p className="text-xs text-neutral-300 ml-4 md:overflow-hidden overflow-y-scroll">
-                                                {item.description}
+                                                {item.project_description}
                                             </p>
                                         </div>
                                         <div className="projectImage md:w-1/2 h-[220px] flex justify-center bg-black items-center rounded-lg">
                                             <div className="flex justify-center">
                                                 <img
                                                     className="lg:w-[90%] lg:h-[70%] md:w-[90%] w-[90%] h-[50%] rounded-lg"
-                                                    src={item.src}
-                                                    alt={`${item.name} Project Screenshot`}
+                                                    src={item.project_photo}
+                                                    alt={`${item.project_name} Project Screenshot`}
                                                 />
                                             </div>
                                         </div>
