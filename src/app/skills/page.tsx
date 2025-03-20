@@ -83,7 +83,7 @@ function getIconForString(str: string) {
 export default function BackgroundBeamsWithCollisionDemo() {
     return (
         <main className="bg-[#FAF7F0] flex flex-col min-h-full overflow-x-hidden">
-            <AuroraBackgroundDemo content="Skills." />
+            <AuroraBackgroundDemo content="Skills" />
 
             <BackgroundBeamsWithCollision className="h-min w-screen mb-3 overflow-x-hidden">
                 <div id="skillBlocks" className="lg:w-4/5 md:mt-0 mt-10 gap-5 w-[97%] h-full ">

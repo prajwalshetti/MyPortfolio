@@ -29,11 +29,10 @@ export default function Home() {
 
   return (
     <main className="">
-      <div className="bg-[#000000]">
+      <div className="bg-[#000000] mb-10">
         <HeroParallax products={products} />
       </div>
       <AboutDemo />
-      <Experiences />
       <SocialLinks />
       <div
         className="absolute md:fixed md:top-[-70px] lg:top-[-130px] bottom-[-70px]  right-9"

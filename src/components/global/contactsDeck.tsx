@@ -10,14 +10,6 @@ import {
 import url from "@/data/projectData.json"
 export function FloatingDockDemo() {
     const links = [
-
-
-
-
-
-    
-
-
         {
             title: "GitHub",
             icon: (

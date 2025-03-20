@@ -1,42 +1,36 @@
 {
     "personal_info": {
-        "name": "Uttam Seervi",
-        "my_email": "seerviu690@gmail.com",
-        "my_github": "https://github.com/uttamseervi",
-        "my_linkedin": "https://www.linkedin.com/in/uttam-seervi-8500032ab/",
-        "my_resume": "https://drive.google.com/file/d/1lodtIT_fffBYG4UwpaXn1oHopdAUlXeo/view?usp=drive_link",
+        "name": "Prajwal Shetti",
+        "my_email": "shettiprajwal04@gmail.com",
+        "my_github": "https://github.com/prajwalshetti",
+        "my_linkedin": "https://www.linkedin.com/in/prajwal-shetti-b1aa2625a/",
+        "my_resume": "https://drive.google.com/file/d/1ee5U39Sidaqzg_RoTD1RCUiIyMgjkNfK/view?usp=sharing",
         "description_about_me": "I'm a full-stack developer passionate about building innovative web applications and digital experiences"
     },
     "projects": [
         {
-            "project_name": "Hotel Management System",
-            "project_description": "A Hotel Management System is a web application designed to simplify hotel operations and enhance guest experiences. It includes features like room booking, staff management, payment processing, and customer support.",
-            "project_photo": "/images/hms.png",
-            "project_url": "https://github.com/uttamseervi/Hotel-Manegement-System"
+            "project_name": "Edu-streamline",
+            "project_description": "Offline attendance taking system for rural schools, Efficient student performance tracking with parent involvement, Dynamic time table creation and exam creation.",
+            "project_photo": "/images/edu_streamline.png",
+            "project_url": "https://github.com/prajwalshetti/Edu-streamliners5"
         },
         {
-            "project_name": "Mega Blog",
-            "project_description": "A Blog App is a platform that enables users to create, read, edit, and delete blog posts. It includes features like user authentication and post categorization, offering a simple and efficient way for writers to share content and for readers to explore articles.",
-            "project_photo": "/images/blog.png",
-            "project_url": "https://mega-blog-sandy.vercel.app/"
+            "project_name": "Rural Policy Information System",
+            "project_description": "Built a project for the NGO INDUS-ACTION, Web platform that efficiently conveys government policies to rural beneficiaries.",
+            "project_photo": "/images/indus_action.png",
+            "project_url": "https://github.com/prajwalshetti"
         },
         {
-            "project_name": "Harvest Guard",
-            "project_description": "Harvest Guard is a machine learning-based application that predicts suitable crops based on soil quality and climate conditions. By analyzing factors such as soil nutrients, moisture levels, and weather patterns, it provides tailored crop recommendations and farming suggestions to optimize agricultural productivity and sustainability.",
-            "project_photo": "/images/harvest.png",
-            "project_url": "https://github.com/uttamseervi/hackathon"
+            "project_name": "Space war",
+            "project_description": "1v1 Spaceship shootout game, Developed an engaging 1v1 spaceship shootout game.",
+            "project_photo": "/images/space_game.png",
+            "project_url": "https://github.com/prajwalshetti/space_fight_2"
         },
         {
-            "project_name": "Personal Portfolio",
-            "project_description": "A Personal Portfolio is a website that showcases an individual's skills, projects, experience, and achievements.",
-            "project_photo": "/images/porffolio.png",
-            "project_url": "https://github.com/uttamseervi/portfolio"
-        },
-        {
-            "project_name": "Spotify Clone",
-            "project_description": "A Spotify Frontend Clone is a web application that replicates the basic user interface of Spotify, allowing users to play and pause music. It focuses on providing an interactive experience with features like song selection, play/pause functionality, and a simple, user-friendly design.",
-            "project_photo": "/images/spotify.png",
-            "project_url": "https://github.com/uttamseervi/Spotify"
+            "project_name": "Easy-buy",
+            "project_description": "E-commerce platform, WebSocket-enabled authenticated e-commerce website.",
+            "project_photo": "/images/easybuy.png",
+            "project_url": "https://github.com/prajwalshetti/The_unfazed_bot"
         }
     ],
     "experience": [
@@ -93,8 +87,6 @@
         "frontend": [
             "Javascript",
             "ReactJS",
-            "NextJS",
-            "Typescript",
             "Redux",
             "HTML",
             "CSS",
