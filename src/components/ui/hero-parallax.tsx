@@ -148,8 +148,7 @@ export const Header = () => {
                     transition={{ duration: 0.8, delay: 0.5 }}
                     className="max-w-2xl mx-auto text-base md:text-xl mt-8 text-gray-300 leading-relaxed"
                 >
-                    I build beautiful products with the latest technologies and frameworks. <br />
-                    I am a passionate developer and designer who loves to build amazing products.
+I build seamless, visually stunning digital experiences using modern technologies and craft innovative solutions that make an impact.
                 </motion.p>
                 
                 <motion.div 
