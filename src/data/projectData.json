@@ -2,9 +2,11 @@
     "personal_info": {
         "name": "Prajwal Shetti",
         "my_email": "shettiprajwal04@gmail.com",
+
         "my_github": "https://github.com/prajwalshetti",
         "my_linkedin": "https://www.linkedin.com/in/prajwal-shetti-b1aa2625a/",
         "my_resume": "https://drive.google.com/file/d/1ee5U39Sidaqzg_RoTD1RCUiIyMgjkNfK/view?usp=sharing",
+        "my_instagram":"https://www.instagram.com/prajwalshetti_8104?igsh=OTlhNGVzZjBzNTNo",
         "description_about_me": "I'm a full-stack developer passionate about building innovative web applications and digital experiences"
     },
     "projects": [
