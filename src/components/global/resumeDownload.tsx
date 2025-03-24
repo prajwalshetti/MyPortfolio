@@ -62,7 +62,6 @@ export function AnimatedModalDemo({ ResumeLink }: Props) {
                                         { text: 'here' },
                                         { text: 'to' },
                                         { text: 'see' },
-                                        { text: 'now' },
                                     ]}
 
 
