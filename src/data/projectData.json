@@ -33,56 +33,41 @@
             "project_url": "https://github.com/prajwalshetti/The_unfazed_bot"
         }
     ],
-    "experience": [
-        {
-            "my_company": "TechWave Solutions",
-            "my_role": "Frontend Developer",
-            "start_date": "2021-01-15",
-            "end_date": "2022-06-30",
-            "location": "San Francisco, CA",
-            "my_role_desc": "Developed and optimized web applications using React, ensuring responsive design and seamless user experiences."
-        },
-        {
-            "my_company": "InnoVision Corp",
-            "my_role": "Backend Developer",
-            "start_date": "2019-09-01",
-            "end_date": "2020-12-31",
-            "location": "Austin, TX",
-            "my_role_desc": "Built and maintained RESTful APIs using Node.js and Express, improving system performance by 25%."
-        },
-        {
-            "my_company": "CodeCraft Studio",
-            "my_role": "Full Stack Developer",
-            "start_date": "2018-05-01",
-            "end_date": "2019-08-30",
-            "location": "New York, NY",
-            "my_role_desc": "Collaborated with cross-functional teams to deliver scalable full-stack solutions using MERN stack."
-        },
-        {
-            "my_company": "BrightPath Analytics",
-            "my_role": "Data Analyst",
-            "start_date": "2020-03-01",
-            "end_date": "2021-12-31",
-            "location": "Chicago, IL",
-            "my_role_desc": "Analyzed large datasets using Python and SQL, delivering actionable insights that boosted sales by 15%."
-        },
-        {
-            "my_company": "Skyline Innovations",
-            "my_role": "DevOps Engineer",
-            "start_date": "2022-07-01",
-            "end_date": "Present",
-            "location": "Seattle, WA",
-            "my_role_desc": "Implemented CI/CD pipelines using Jenkins and Docker, reducing deployment time by 40%."
-        },
-        {
-            "my_company": "PixelEdge Designs",
-            "my_role": "UI/UX Designer",
-            "start_date": "2017-02-15",
-            "end_date": "2018-04-30",
-            "location": "Los Angeles, CA",
-            "my_role_desc": "Designed intuitive user interfaces and improved user journeys, resulting in a 20% increase in engagement."
-        }
-    ],
+"experience": [
+    {
+        "my_company": "JP Morgan Hackathon Runner-up",
+        "my_role": "Fullstack Developer",
+        "start_date": "2021-01-15",
+        "end_date": "2022-06-30",
+        "location": "Bengaluru, India",
+        "my_role_desc": "Developed a web application to streamline NGO operations, enhancing beneficiary tracking and policy implementation. Built a secure, efficient backend with Node.js and Express, improving data management and reporting"
+    },
+    {
+        "my_company": "Shikshalokam Hackathon Finalists",
+        "my_role": "Fullstack Developer",
+        "start_date": "2019-09-01",
+        "end_date": "2020-12-31",
+        "location": "Bengaluru, India",
+        "my_role_desc": "Developed a website to assist teachers and administrators, reducing their workload by streamlining operations and beneficiary tracking. Built a secure backend with Node.js and Express, improving data management and reporting."
+    },
+    {
+        "my_company": "Chess State Champion",
+        "my_role": "Sports achievement",
+        "start_date": "2018-05-01",
+        "end_date": "2019-08-30",
+        "location": "Bengaluru, India",
+        "my_role_desc": "Demonstrated strong chess skills by competing and winning at the state level."
+    },
+    {
+        "my_company": "State 5th Rank in 10th Boards",
+        "my_role": "Academic Achievement",
+        "start_date": "2020-03-01",
+        "end_date": "2021-12-31",
+        "location": "Bengaluru, India",
+        "my_role_desc": "Secured 5th rank in Karnataka 10th board exams, showcasing strong analytical skills, dedication, and academic excellence."
+    }
+],
+
     "skills": {
         "frontend": [
             "Javascript",

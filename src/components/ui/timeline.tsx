@@ -85,7 +85,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                     viewport={{ once: true }}
                 >
                     <h2 className="text-lg md:text-4xl mb-2 font-bold text-[#243642] max-w-4xl">
-                        Changelog from my journey
+                        Achievements
                     </h2>
                     <div className="h-1 w-20 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full mb-10"></div>
                 </motion.div>
@@ -94,7 +94,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
             <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
                 {data.map((item, index) => (
                     <motion.div 
-                        key={item.start_date} 
+                        key={index} 
                         className={`timeline-entry flex justify-start pt-1 md:pt-10 md:mb-16 mb-28 md:gap-10 ${activeIndex === index ? 'active' : ''}`}
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
@@ -145,7 +145,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                                     <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                                     </svg>
-                                    <span>{item.start_date} - {item.end_date}</span>
+                                    {/* <span>{item.start_date} - {item.end_date}</span> */}
                                 </div>
                                 
                                 <p className="text-gray-700 mb-4 leading-relaxed">{item.my_role_desc}</p>
